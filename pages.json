@@ -1,0 +1,510 @@
+{
+    "pages": [{
+            "path": "pages/tab/home/shopindex/index",
+            "style": {
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": true
+                    }
+                }
+            }
+        }, {
+            "path": "pages/tab/my/my/index",
+            "style": {
+                "navigationStyle": "custom"
+            }
+        }, {
+            "path": "pages/tab/uncover/index",
+            "enablePullDownRefresh": true,
+
+            "style": {
+                "navigationStyle": "custom"
+            }
+        }, {
+            "path": "pages/tab/goods/index",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "pages/tab/cart/index",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": true
+                    }
+                }
+            }
+        }
+
+    ],
+    "subPackages": [{
+        "root": "pages/goods",
+        "pages": [{
+            "path": "goods-detail/index",
+            "style": {
+                "navigationBarTitleText": "商品详情",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": false
+            }
+        }, {
+            "path": "goods-list/index",
+            "style": {
+                "navigationBarTitleText": "商品列表",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        }, {
+            "path": "trend/index",
+            "style": {
+                "navigationBarTitleText": "走势图",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        }, {
+            "path": "img-text/index",
+            "style": {
+                "navigationBarTitleText": "图文详情",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": false
+            }
+        }]
+    }, {
+        "root": "pages/user",
+        "pages": [{
+            "path": "login-code/index",
+            "style": {
+                "navigationBarTitleText": "验证码登录",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": false,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "login-password/index",
+            "style": {
+                "navigationBarTitleText": "密码登录",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": false,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "register/index",
+            "style": {
+                "navigationBarTitleText": "注册",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": false,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "forget/index",
+            "style": {
+                "navigationBarTitleText": "忘记秘密",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": false,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "recharge/index",
+            "style": {
+                "navigationBarTitleText": "充值",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": false,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "help/index",
+            "style": {
+                "navigationBarTitleText": "新手指南",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": false,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "share-part/index",
+            "style": {
+                "navigationBarTitleText": "分享赚钱",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": false,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "info/index",
+            "style": {
+                "navigationBarTitleText": "账户设置",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": false,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "wallet/index",
+            "style": {
+                "navigationBarTitleText": "钱包",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": false,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "fav/index",
+            "style": {
+                "navigationBarTitleText": "我的收藏",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "join-log/index",
+            "style": {
+                "navigationBarTitleText": "参与记录",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "win-log/index",
+            "style": {
+                "navigationBarTitleText": "获得商品",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "account-log/index",
+            "style": {
+                "navigationBarTitleText": "账户明细",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "check-balance/index",
+            "style": {
+                "navigationBarTitleText": "转到余额",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "check-card/index",
+            "style": {
+                "navigationBarTitleText": "提现",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "zryy-log/index",
+            "style": {
+                "navigationBarTitleText": "转入余额记录",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "tx-log/index",
+            "style": {
+                "navigationBarTitleText": "提现记录",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "dh-log/index",
+            "style": {
+                "navigationBarTitleText": "兑换明细",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "add-address/index",
+            "style": {
+                "navigationBarTitleText": "新增地址",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "address-list/index",
+            "style": {
+                "navigationBarTitleText": "地址列表",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "confirm-conversion/index",
+            "style": {
+                "navigationBarTitleText": "完善地址",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "commission-log/index",
+            "style": {
+                "navigationBarTitleText": "佣金明细",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }, {
+            "path": "invite-friends/index",
+            "style": {
+                "navigationBarTitleText": "邀请好友",
+                "navigationBarTextStyle": "black",
+                "navigationStyle": "custom",
+                "disableScroll": false,
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none",
+                    "scrollIndicator": "none",
+                    "pullToRefresh": {
+                        "support": false
+                    }
+                }
+            }
+        }]
+    }],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#FFFFFF",
+        "app_plus": {
+            "app-plus": {
+                "bounce": "none"
+            }
+        }
+    },
+    "tabBar": {
+        "borderStyle": "black",
+        "backgroundColor": "#FFFFFF",
+        "color": "#333333",
+        "selectedColor": "#F02523",
+        "list": [{
+            "pagePath": "pages/tab/home/shopindex/index",
+            "iconPath": "/static/tab/tab0.png",
+            "selectedIconPath": "/static/tab/tab0_active.png",
+            "text": "首页"
+        }, {
+            "pagePath": "pages/tab/goods/index",
+            "iconPath": "/static/tab/tab1.png",
+            "selectedIconPath": "/static/tab/tab1_active.png",
+            "text": "所有商品"
+        }, {
+            "pagePath": "pages/tab/uncover/index",
+            "iconPath": "/static/tab/tab2.png",
+            "selectedIconPath": "/static/tab/tab2_active.png",
+            "text": "最新揭秘"
+        }, {
+            "pagePath": "pages/tab/cart/index",
+            "iconPath": "/static/tab/tab3.png",
+            "selectedIconPath": "/static/tab/tab3_active.png",
+            "text": "购物车"
+        }, {
+            "pagePath": "pages/tab/my/my/index",
+            "iconPath": "/static/tab/tab4.png",
+            "selectedIconPath": "/static/tab/tab4_active.png",
+            "text": "我的"
+        }]
+    }
+}
